@@ -1,8 +1,12 @@
 require 'sinatra'
 require 'rubygems'
 require 'bundler/setup'
-
+require 'json'
 require './palindromos'
+
+require "sinatra/base"
+require "sinatra/json"
+
 
 
 
