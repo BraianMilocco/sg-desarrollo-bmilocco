@@ -30,6 +30,3 @@ class BuscadorMagico < Sinatra::Base
     end
 
 end
-
-# request.url psot
-# recibir dato
