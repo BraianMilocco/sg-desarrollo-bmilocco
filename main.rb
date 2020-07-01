@@ -1,9 +1,10 @@
 require 'sinatra'
-require 'json'
+require 'rubygems'
+require 'bundler/setup'
+
 require './palindromos'
 
-require "sinatra/base"
-require "sinatra/json"
+
 
 class BuscadorMagico < Sinatra::Base
     
